@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shivam Pratap Singh - Portfolio</title>
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Hide scrollbars during animation */
+      }
+
+      .boundary {
+        animation: fadeIn 1s ease-out; /* Add a fade-in animation */
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ddd; /* Boundary border color */
+        background-color: #fff; /* Boundary background color */
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2em;
+        color: #ffd700; /* Highlight color */
+      }
+
+      header p {
+        margin-top: 5px;
+        font-size: 1.2em;
+        color: #ddd; /* Subtle text color */
+      }
+
+      header img {
+        border-radius: 50%; /* Make the image circular */
+        margin-top: 20px;
+        border: 4px solid #ffd700; /* Highlight color */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+      }
+
+      section {
+        padding: 40px 0;
+      }
+
+      section h2 {
+        color: #333;
+      }
+
+      section p {
+        color: #555;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      ul li {
+        display: inline-block;
+        margin-right: 10px;
+        background-color: #333;
+        color: #fff;
+        padding: 8px;
+        border-radius: 5px;
+      }
+
+      .project {
+        margin-bottom: 20px;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boundary">
+      <header>
+        <div class="container">
+          <h1>Shivam Pratap Singh</h1>
+          <p>Web Developer</p>
+          <!-- <img src="profile.png" alt="Profile Image" width="150" height="150" /> -->
+        </div>
+      </header>
+
+      <section id="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            I am a passionate web developer with a keen interest in creating
+            responsive and user-friendly websites. I have a strong foundation in
+            front-end and back-end technologies.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="container">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website showcasing my skills and projects.</p>
+          </div>
+          <div class="project">
+            <h3>Task Manager App</h3>
+            <p>
+              An application to manage tasks and deadlines using React and
+              Node.js.
+            </p>
+          </div>
+          <!-- Add more projects as needed -->
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <p>
+            Feel free to reach out to me. I'm open to collaborations and new
+            opportunities.
+          </p>
+          <!-- Include your contact form or details here -->
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <p>&copy; 2023 Shivam Pratap Singh. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
